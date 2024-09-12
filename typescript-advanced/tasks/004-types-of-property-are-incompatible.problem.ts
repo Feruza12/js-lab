@@ -1,3 +1,4 @@
+// We can use Union type and make Component either string or number
 const routingConfig = {
   routes: [
     {
@@ -18,7 +19,7 @@ const routingConfig = {
 const createRoutes = (config: {
   routes: {
     path: string;
-    component: string;
+    component: string | number;
   }[];
 }) => {};
 
