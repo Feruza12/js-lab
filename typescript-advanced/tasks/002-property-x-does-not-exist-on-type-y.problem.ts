@@ -1,5 +1,10 @@
-const user = {
+interface User {
+  name: string;
+  age?: number;
+}
+
+const user1: User = {
   name: "Matt",
 };
 
-user.age = 24;
+user1.age = 24;
