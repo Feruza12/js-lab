@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { v4 as uuid } from "uuid";
 import "./App.css";
 
@@ -41,10 +41,6 @@ function App() {
             prevTasks.filter((task) => task.id != taskId)
         );
     }
-
-    useEffect(() => {
-        console.log(tasks);
-    }, [tasks]);
 
     return (
         <>
@@ -94,7 +90,7 @@ function App() {
             </ul>
             {tasks.every(function (task) {
                 return task.completed == true;
-            }) ? (
+            }) && tasks.length ? (
                 <p className="task-container">All tasks completed!</p>
             ) : null}
         </>
