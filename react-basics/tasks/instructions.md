@@ -44,7 +44,6 @@ To create a Pull Request (PR), follow these steps:
    ```
    [FirstnameLastname]: React Basics Homework Submission
    ```
-
    Example:  
    ```
    [JohnDoe] React Basics Homework Submission
