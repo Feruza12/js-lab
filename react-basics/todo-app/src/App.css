@@ -1,0 +1,69 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 36px 36px 18px 36px;
+  background-color: lightblue;
+  max-width: fit-content;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.input-field {
+  width: 400px;
+  font-size: 20px;
+  padding: 7px 10px;
+}
+
+.message-container {
+  height: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: blue;
+}
+
+.button {
+  width: 150px;
+  font-size: 20px;
+  padding: 7px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 10px
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.task-list {
+  padding: 20px 0px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.task:hover {
+  background-color: #9bcdde;
+}
+
+.incomplete {
+  opacity: 100%;
+}
+
+.completed {
+  opacity: 50%;
+  text-decoration: line-through;
+}
