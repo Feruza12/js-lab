@@ -1,4 +1,4 @@
-export interface GenericProps {
+export interface CounterProps {
   count: number;
   timerActivated: boolean;
   toggleTimer: () => void;

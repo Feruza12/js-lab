@@ -1,4 +1,4 @@
-import { GenericProps } from "../interfaces/GenericProps";
+import { CounterProps } from "../interfaces/CounterProps";
 
 function ControlsBar({
   timerActivated,
@@ -6,7 +6,7 @@ function ControlsBar({
   incrementCount,
   decrementCount,
   resetCount,
-}: Omit<GenericProps, "count">) {
+}: Omit<CounterProps, "count">) {
   return (
     <div className="button-container">
       <button onClick={incrementCount} className="button">

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { GenericProps } from "../interfaces/GenericProps";
+import { CounterProps } from "../interfaces/CounterProps";
 
 function MessageDisplay({
   count,
   timerActivated,
   toggleTimer,
-}: Pick<GenericProps, "count" | "timerActivated" | "toggleTimer">) {
+}: Pick<CounterProps, "count" | "timerActivated" | "toggleTimer">) {
   const [message, setMessage] = useState("");
 
   useEffect(() => {

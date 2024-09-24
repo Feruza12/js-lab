@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import { GenericProps } from "../interfaces/GenericProps";
+import { CounterProps } from "../interfaces/CounterProps";
 
 function CounterDisplay({
   timerActivated,
   count,
   incrementCount,
-}: Pick<GenericProps, "timerActivated" | "count" | "incrementCount">) {
+}: Pick<CounterProps, "timerActivated" | "count" | "incrementCount">) {
   let timer: number | undefined;
 
   useEffect(() => {
