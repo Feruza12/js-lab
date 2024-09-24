@@ -6,7 +6,8 @@ const routingConfig = {
     },
     {
       path: "about",
-      component: 12,
+      component: "12",
+      // component type was number then i convert it to string
     },
     {
       path: "contact",
