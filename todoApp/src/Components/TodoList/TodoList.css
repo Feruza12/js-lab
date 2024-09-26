@@ -1,0 +1,77 @@
+.input-text {
+    font-size: 2rem;
+    width: 60%;
+}
+
+.edit-btn {
+    width: 4rem;
+    height: 3rem;
+    background-color: rgb(163, 50, 154);
+    border-width: 0;
+    border-radius: 0.2rem;
+    color: #ffffff;
+}
+
+.delete-btn {
+    width: 6rem;
+    background-color: rgb(255, 77, 77);
+    border-radius: 0.2rem;
+    border-width: 0;
+    height: 3rem;
+    color: #ffffff;
+}
+
+.completed .input-text {
+    text-decoration: line-through;
+    color: #747474;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid #3174da;
+    cursor: pointer;
+}
+
+.checkbox::after {
+    transition: 0.2s ease-in-out;
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.business .checkbox {
+    box-shadow: 0px 0px 4px rgba(27, 118, 255, 0.75);
+}
+
+.personal .checkbox {
+    border: 2px solid #f82ca3;
+    box-shadow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+}
+
+.personal.completed .checkbox {
+    border: 2px solid #f82ca3;
+}
+
+.checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    display: none;
+}
+
+.business.completed .checkbox::after {
+    background-color: #3174da;
+}
+
+.personal.completed .checkbox::after {
+    background-color: #f82ca3;
+}

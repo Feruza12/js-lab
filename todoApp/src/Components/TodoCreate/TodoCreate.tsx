@@ -1,9 +1,9 @@
-import "./main.css";
-import TodoList from "./TodoList";
+import "./TodoCreate.css";
+import TodoList from "../TodoList/TodoList.tsx";
 
 // Define the props for TodoCreate
 interface Todo {
-    id: number;
+    id: string;
     todo: string;
     category: string;
     done: boolean;
@@ -13,9 +13,9 @@ interface Todo {
 interface TodoCreateProps {
     todos: Todo[];
     setInputValue: (value: string) => void;
-    deleteTodo: (id: number) => void;
-    completeTodo: (id: number) => void;
-    editTodo: (id: number, text: string) => void;
+    deleteTodo: (id: string) => void;
+    completeTodo: (id: string) => void;
+    editTodo: (id: string, text: string) => void;
 }
 
 export default function TodoCreate({
@@ -26,7 +26,7 @@ export default function TodoCreate({
                                        editTodo,
                                    }: TodoCreateProps) {
     return (
-        <ul id="todo-list" className="list">
+        <ul id="todo-list">
             <p className="l1">Todo List:</p>
             {todos.map((todo) => (
                 <TodoList

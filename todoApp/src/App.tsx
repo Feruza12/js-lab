@@ -1,5 +1,5 @@
 import './App.css'
-import TodoItem from "./Components/TodoItem.tsx";
+import TodoItem from "./Components/TodoItem/TodoItem.tsx";
 function App() {
   return (
     <>

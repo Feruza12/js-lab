@@ -1,8 +1,8 @@
 import { useRef } from "react";
+import "./TodoList.css"
 
-// Define the props for TodoList
 interface Todo {
-    id: number;
+    id: string;
     todo: string;
     category: string;
     done: boolean;
@@ -12,9 +12,9 @@ interface Todo {
 interface TodoListProps {
     todos: Todo;
     setInputValue: (value: string) => void;
-    deleteTodo: (id: number) => void;
-    completeTodo: (id: number) => void;
-    editTodo: (id: number, text: string) => void;
+    deleteTodo: (id: string) => void;
+    completeTodo: (id: string) => void;
+    editTodo: (id: string, text: string) => void;
 }
 
 export default function TodoList({

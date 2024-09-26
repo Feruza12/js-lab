@@ -1,7 +1,6 @@
 import { ChangeEvent, FormEvent } from "react";
-import "./main.css";
+import "./TodoForm.css";
 
-// Define the props for TodoForm
 interface TodoFormProps {
     addTodo: () => void;
     inputValue: string;
@@ -31,7 +30,7 @@ export default function TodoForm({
                 <h2>Create a todo</h2>
                 <p className="sub-title">What's on your todo list?</p>
 
-                <label className="input__activity">
+                <label>
                     <input
                         className="input-box"
                         type="text"
