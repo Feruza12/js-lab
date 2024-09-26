@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #efefef;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+h1 {
+    width: 100%;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+h2 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+
+li {
+    margin-top: 1rem;
+    row-gap: 1rem;
+    list-style: none;
+    width: 100%;
+    height: 6rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+button {
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+button:active {
+    transform: scale(0.8);
+}
+
+
+@media (max-width: 480px) {
+    html {
+        font-size: 10px;
+        margin: 2rem;
+    }
+    .todo {
+        width: 100%;
+    }
+    input::placeholder{
+        font-size: 2rem;
+    }
+    .todo__input{
+        width: 20rem;
+    }
+    .add-todo__btn, .input-box, .input-text, .edit-btn, .delete-btn {
+        font-size: 1.6rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    h1 {
+        font-size: 2rem;
+
+    }
+    h2, .sub-title, .l1 {
+        font-size: 2rem;
+        width: max-content;
+    }
+    .radio-btn {
+        font-size: 1.5rem;
+    }
+    li {
+        height: auto;
+        height: 5rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+}
