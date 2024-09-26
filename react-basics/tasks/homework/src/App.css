@@ -1,0 +1,46 @@
+.todoApp{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.appTitle{
+  font-size: 32px;
+  color: #000;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 6px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 6px;
+  background: transparent;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+
+ul,
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.todoListItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
