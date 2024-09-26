@@ -4,7 +4,6 @@
 
 ### 1. Clone Todo App that you worked before
 
-
 ### 2.Create a new branch with your firsnamelastname (feruzamaxmudova)/react-hooks-homework
 
 ```bash
@@ -35,28 +34,36 @@ git push origin firsnamelastname
 To create a Pull Request (PR), follow these steps:
 
 1. In the **Title** field, use this format:
-   ```
-   [FirstnameLastname]: React Hooks and Project structure Homework Submission
-   ```
 
-   Example:  
-   ```
-   [JohnDoe]: React Hooks and Project structure Homework Submission
-   ```
+    ```
+    [FirstnameLastname]: React Hooks and Project structure Homework Submission
+    ```
+
+    Example:
+
+    ```
+    [JohnDoe]: React Hooks and Project structure Homework Submission
+    ```
 
 2. In the **Description** field, add a summary of your work. Be sure to include screenshots of each state of the app:
-   - The app after tasks have been completed.
-   - UI interactions (e.g., task completion, button clicks, etc.).
-   - Project structure
 
-   You can add screenshots like this:
-   ```md`
-   ### Each State
-   ![Screenshot Title](url_to_screenshot)
+    - The app after tasks have been completed.
+    - UI interactions (e.g., task completion, button clicks, etc.).
+    - Project structure
 
-   ### Completed Task
-   ![Screenshot Title](url_to_screenshot)
-   ```
+    You can add screenshots like this:
+    ```md`
 
-5. After completing the form, click **Create pull request**.
+    ### Each State
 
+    ![Screenshot Title](url_to_screenshot)
+
+    ### Completed Task
+
+    ![Screenshot Title](url_to_screenshot)
+
+    ```
+
+    ```
+
+3. After completing the form, click **Create pull request**.
