@@ -7,7 +7,7 @@
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git https://github.com/Feruza12/js-lab
+git clone https://github.com/Feruza12/js-lab
 ```
 
 ### 2.Create a new branch with your firsnamelastname (feruzamaxmudova)/react-basics-homework
