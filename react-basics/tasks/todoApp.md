@@ -10,7 +10,7 @@ In this task, you will build a **To-Do List** app using React. The app will allo
 You will practice using:
 - `useState` for managing the list of tasks and their status.
 - `useEffect` to handle side effects such as displaying messages based on the task list.
-- Basic user interactions, like adding, completing, and deleting tasks.
+- Basic user interactions, like adding, completing, and delefirstname-lastname/react-basics-homeworkting tasks.
 
 ---
 
