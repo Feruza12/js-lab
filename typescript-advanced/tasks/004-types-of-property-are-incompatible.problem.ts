@@ -6,7 +6,7 @@ const routingConfig = {
     },
     {
       path: "about",
-      component: 12,
+      component: "AboutComponent",//string
     },
     {
       path: "contact",
