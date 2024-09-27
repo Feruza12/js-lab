@@ -1,19 +1,24 @@
 import React from 'react';
 import MyButton from './UI/button/MyButton';
 
-const TodoItem = (props) => {
+const TodoItem = ({ todo, number, toggleDone, remove }) => {
   return (
-    <div className="todo">
+    <div className={`todo ${todo.isDone ? 'done' : ''}`}>
       <div className="todo__content">
-        <strong>{props.number}. {props.todo.title}</strong>
+        <strong
+          style={{ textDecoration: todo.isDone ? 'line-through' : 'none' }}
+        >{number}. {todo.title}</strong>
       </div>
       <div className="todo__btns">
-        <MyButton onClick={() => props.remove((props.todo))}>
+        <MyButton onClick={() => toggleDone(todo.id)}>
+          {todo.isDone ? 'Cancel' : 'Done'}
+        </MyButton>
+        <MyButton onClick={() => remove(todo)}>
           Delete
         </MyButton>
       </div>
     </div>
   );
-}
+};
 
-export default TodoItem
+export default TodoItem;

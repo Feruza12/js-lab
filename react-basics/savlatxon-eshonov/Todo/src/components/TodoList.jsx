@@ -1,7 +1,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 
-const TodoList = ({ todos, title, remove }) => {
+const TodoList = ({ todos, title, remove, toggleDone }) => {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>{title}</h1>
@@ -11,6 +11,7 @@ const TodoList = ({ todos, title, remove }) => {
           number={index + 1}
           todo={todo}
           key={todo.id}
+          toggleDone={toggleDone}
         />
       ))}
     </div>
