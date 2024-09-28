@@ -1,3 +1,1 @@
-import { useTodo } from "./useTodo";
-
-export { useTodo };
+export { useTodo } from "./useTodo";

@@ -1,4 +1,2 @@
-import { CreateTaskForm } from "./CreateTaskForm";
-import { TodoItem } from "./TodoItem";
-
-export { CreateTaskForm, TodoItem };
+export * from "./TodoItem";
+export * from "./CreateTaskForm";
