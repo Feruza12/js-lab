@@ -1,12 +1,6 @@
-import { Task } from "../../types";
 import Checkbox from "@mui/material/Checkbox";
 import styles from "./TodoItem.module.css";
-
-type TodoItemProps = {
-    task: Task;
-    toggleTaskCompletion: (id: string) => void;
-    removeTask: (id: string) => void;
-};
+import { TodoItemProps } from "./TodoItem.type";
 
 export function TodoItem({
     task,
