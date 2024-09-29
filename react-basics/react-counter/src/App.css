@@ -1,0 +1,34 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+  background-color: lightblue;
+  max-width: fit-content;
+  font-size: 24px;
+}
+
+p {
+  margin: 0px;
+}
+
+.message-container {
+  height: 10px;
+}
+
+.counter {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.button-container {
+  display: flex;
+  gap: 6px;
+}
+
+.button {
+  width: 150px;
+  font-size: 24px;
+  padding: 5px;
+}
