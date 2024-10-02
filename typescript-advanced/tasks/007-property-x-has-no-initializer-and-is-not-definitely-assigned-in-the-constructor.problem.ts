@@ -1,3 +1,10 @@
+// define a constructor
 class User {
-  private username: string;
+    constructor(private username: string) {}
+
+    someMethod() {
+        this.username = "FizzBuzz";
+        console.log(this.username);
+    }
 }
+
